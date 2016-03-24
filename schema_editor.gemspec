@@ -9,15 +9,14 @@ Gem::Specification.new do |s|
   s.version     = SchemaEditor::VERSION
   s.authors     = ["山田　潤"]
   s.email       = ["junyamada.dev@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SchemaEditor."
-  s.description = "TODO: Description of SchemaEditor."
+  s.homepage    = "https://github.com/junjungoal/schema_editor"
+  s.summary     = "schiema editor"
+  s.description = "we can edit schema data on your website"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 4.2.5"
+  s.add_dependency "rails", "~> 3.2.0"
 
-  s.add_development_dependency "mysql2"
 end
 
